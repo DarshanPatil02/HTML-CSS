@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#Main-Heading{
+    color: rgb(128, 58, 193);
+    background-color: gold;
+}
+
+.Main-section{
+    color: rgb(145, 99, 15);
+    background-color: rgb(180, 234, 234);
+
+}
