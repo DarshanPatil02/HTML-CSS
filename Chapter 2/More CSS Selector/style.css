@@ -1,0 +1,35 @@
+header{
+    background-color: #f0ebeb;
+}
+
+section.my-articles{
+    background-color: #f2b9a7;
+
+}
+
+header p{
+    color: red;
+}
+
+li a{
+    color: brown;
+}
+
+/* section.my-articles h2{
+    color: green;
+} */   
+/* Above code changes all h2 colour green but we want only first one here we use parent selector*/
+
+section.my-articles > h2{
+    color: green;
+}
+
+/* Adjacent selector */
+h2+p{
+    color: orangered;
+}
+
+ul+p{
+    color: darkslateblue;
+}
+
