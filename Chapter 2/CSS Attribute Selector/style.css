@@ -1,0 +1,15 @@
+input[type="text"]{
+    color: red;
+    background-color: aqua
+}
+
+/* a[href="https://www.google.co.in/"]{
+    color: orange;
+} */
+
+/* In above code we need to put full link */
+
+a[href *= "google"]{
+    color: orange;
+}
+
