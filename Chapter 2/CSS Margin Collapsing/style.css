@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Box1, .Box2{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.Box1{
+    margin-bottom: 40px;
+}
+
+.Box2{
+    margin-top: 50px;
+}
+
+/* Here in webpage we can see that there is space between two boxes are 50px not sum of 40+50=90px
+This is called margine collapsing which means which one has high margin that is considered */
