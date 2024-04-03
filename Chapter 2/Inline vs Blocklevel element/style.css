@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2{
+    border: 2px solid #555;
+    width: 500px;
+    height: 100px;
+}
+/* heading(1-6) are block line elements so they take all space in line that we can see from broder and if we change height and width then it will change */
+
+a{
+    border: 2px solid #888;
+    width: 500px;
+    height: 40px;
+}
+
+/* links are inline elements so they take space that much they required only that we can see from broder and inline elements if we change height and width it doesn't change */
+
+h1{
+    margin: 100px;
+    padding: 100px;
+}
+/* In block level element margin is added to all direction as we know and padding is also added */
+a{
+    margin: 100px;
+    padding: 50px;
+}
+/* But in inline elements Margin is only added to left and right and padding is overwrite */
+/* to slove we can give only padding to left and right */
+
+a{
+    margin: 100px;
+    padding: 0px 50px;
+}
+
+/* We can change blocklevel element to inline element and vice versa */
+
+h1,h2{
+    display: inline;
+}
+
+a{
+    display: block;
+}
