@@ -14,3 +14,16 @@ h1{
 }
 
 /* Basically font weights are in range from 100 to 900, where 400 is normal & 700 is bold */
+
+h2{
+    font-size: 46px;
+    text-decoration: underline wavy solid red;
+}
+
+.p3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+}
