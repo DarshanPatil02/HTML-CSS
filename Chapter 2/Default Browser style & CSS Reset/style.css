@@ -1,0 +1,6 @@
+/* By default there is browser margin and padding  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
