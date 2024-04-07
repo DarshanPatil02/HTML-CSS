@@ -1,0 +1,16 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+/* Basically font weights are in range from 100 to 900, where 400 is normal & 700 is bold */
