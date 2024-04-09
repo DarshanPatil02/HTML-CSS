@@ -2,15 +2,6 @@ p:nth-child(2){
     color: red;
 }
 
-/* This is for first child of parent in file.html 
-like in file.html in header1 first child is <p>I am the first paragraph inside header and first element too</p>
-in header2 first child is <h1>Heading</h1> here it is not <p> hence it will not become red 
-in body header 1 is first child hence <p> in body does not become red
-in body div container1 <p> is first child hence it has become red
-*/
-
 p:nth-child(2n){
     color:chocolate ;
 }
-
-/* In this p:first-of-type function all p in every parent becomes chocolate */
