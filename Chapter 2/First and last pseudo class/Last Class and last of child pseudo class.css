@@ -10,7 +10,7 @@ in body div container1 <p> is first child hence it has become red
 */
 
 p:last-of-type{
-    color:chocolate;
+    color:chocolate ;
 }
 
 /* In this p:first-of-type function all p in every parent becomes chocolate */
