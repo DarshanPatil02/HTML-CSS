@@ -3,5 +3,9 @@ p:nth-child(2){
 }
 
 p:nth-child(2n){
+    color: red;
+}
+
+p:nth-child(2){
     color:chocolate ;
 }
