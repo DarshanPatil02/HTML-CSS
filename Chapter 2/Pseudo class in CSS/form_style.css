@@ -1,5 +1,6 @@
 input:focus{
     padding: 20px;
     outline: none;
-    border: 2px solid green
+    border: 2px solid green;
+    font-size: 25px;
 }
