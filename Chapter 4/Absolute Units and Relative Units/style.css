@@ -3,5 +3,7 @@
 }
 
 .relative{
-    font-style: italic;
+    font-size: 200%;
 }
+
+/* i.e.; 200% of actual font size which 32px of original 16px */
