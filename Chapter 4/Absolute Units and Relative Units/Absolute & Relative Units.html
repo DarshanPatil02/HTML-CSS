@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Units & Relative Units</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Absolute Units</h1>
+    <p><b>What are Absolute Units?</b><br>
+        Absolute units specify a fixed length value. It doesn't matter if the screen's width or height changes, the value will remain fixed. <br>        
+        Units that fall under this category include:</p>
+        <ul>
+            <li><b>mm (millimeters)</b></li>
+            <li><b>cm (centimeters):</b> 10mm makes 1cm </li>
+            <li><b>in (inches):</b> 2.54cm makes 1in</li>
+            <li><b>pt (points):</b> 1/72in makes 1pt</li>
+            <li><b>pc (picas):</b> 12pt makes 1pc</li>
+            <li><b>px (pixel):</b> 0.75pt makes 1px</li>
+        </ul>
+        <p>Eg: Make this below text "Hello World!!" to font size 40</p>
+        <p class="absolute">Hello World!!</p>
+                
+    <h1>Relative Units</h1>
+    <p><b>What are Relative Units?</b><br>
+    Unlike absolute units, relative units are not fixed. Their values are "relative" to another value. This means that when that other value changes, the relative unit value will also change. <br>
+    Units that fall under this category include: </p>
+    <ul>
+        <li><b>% (percentage)</b>: relative to the size of the parent element</li>
+        <li><b>% (percentage)</b>: relative to the size of the parent element</li>
+        <li><b>% (percentage)</b>: relative to the size of the parent element</li>
+        <li><b>em (font size)</b>: relative to the size of the font     </li>
+        <li><b>rem (root em)</b>: relative to the font size of the root element</li>
+        <li><b>vw (viewport width) </b>: relative to the width of the viewport</li>
+        <li><b>vh (viewport height)</b>: relative to the height of the viewport</li>
+    </ul>
+    <p>Eg: Make this below text "Hello World!!" to italic font 40</p>
+    <p class="relative">Hello World!!</p>
+</body>
+</html>
