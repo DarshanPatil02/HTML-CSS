@@ -1,0 +1,11 @@
+/* Em ( em ) Similar to rem , em is a relative unit of measurement. But unlike rem , em is relative to the font size of the parent element or the font-size of the nearest parent with a defined font size. The p element is set to 2em which means it is 2 times the font size of the parent element. */
+
+h1{
+    font-size: 2em;
+    border: 2em solid black;
+    padding: 3em;
+}
+
+.box1{
+    font-size: 20px;
+}
