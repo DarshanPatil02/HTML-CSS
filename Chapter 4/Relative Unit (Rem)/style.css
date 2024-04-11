@@ -1,0 +1,31 @@
+/* root-em */
+/* Rem (short for “root-em”) units dictate an element's font size relative to the size of the root element. By default, most browsers use a font size value of 16px. So, if the root element is 16px, an element with the value 1rem will also equal 16px. */
+
+.box1{
+    font-size: 2rem;
+}
+
+/* If we change root element i.e., html font to 10px then 2rem = 2*10 = 20px  */
+/* We can change font size by two ways */
+
+html{
+    font-size: 10px;
+}
+
+html{
+    font-size: 62.5%;
+    /* 62.5% of 16px is 10px. This is best practice because as user change font size in browser setting it will reflect in our website0  */
+}
+
+
+.box1{
+    font-size: 2rem;
+}
+
+.text-content{
+    font-size: 3rem;
+    /* as we know by we set size to 10px */
+    border: 1rem solid red;
+    margin: 0.5rem;
+    padding: 2.5rem;
+}
